@@ -2,6 +2,11 @@
   .navbar {
     flex-direction: column;
   }
+
+  .showcase-content{
+    height: 60vh;
+  }
+
   .info-section {
     display: flex;
     flex-direction: column;
