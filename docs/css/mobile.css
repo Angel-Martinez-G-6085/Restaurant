@@ -3,7 +3,7 @@
     flex-direction: column;
   }
   .info-section {
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
+    display: flex;
+    flex-direction: column;
   }
 }
