@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .info-section {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+  }
+}
