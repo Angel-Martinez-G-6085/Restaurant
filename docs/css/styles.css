@@ -102,7 +102,7 @@ p {
 
 #showcase::before {
   content: "";
-  background: url("../images/pexels-kaboompics-com-6267.jpg") no-repeat center
+  background: url("../images/grande.jpg") no-repeat center
     center;
   background-size: cover;
   position: absolute;

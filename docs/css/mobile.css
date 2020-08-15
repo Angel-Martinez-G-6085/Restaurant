@@ -3,12 +3,17 @@
     flex-direction: column;
   }
 
-  .showcase-content{
+  .showcase-content {
     height: 100vh;
   }
 
   .info-section {
     display: flex;
     flex-direction: column;
+  }
+
+  #showcase::before {
+    content: "";
+    background: url("../images/mediano.jpg") no-repeat center center;
   }
 }
