@@ -16,4 +16,11 @@
     content: "";
     background: url("../images/mediano.jpg") no-repeat center center;
   }
+
+  .nosotros-content{
+    grid-template-areas:
+    "titular titular"
+    "personal personal"
+    "descripcion descripcion"
+  }
 }

@@ -1,0 +1,25 @@
+.nosotros-content{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    align-items: center;
+    grid-template-areas:
+    "titular titular"
+    "personal descripcion"
+}
+
+.nosotros-content img{
+    grid-area: personal;
+    width: 88%;
+    height:250px;
+}
+
+.nosotros-content p{
+    grid-area:descripcion;
+}
+
+.nosotros-content h2{
+    grid-area:titular;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
